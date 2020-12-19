@@ -17,16 +17,17 @@ namespace Deliverable2
 
 			//Random flip generator
 			Random rnd = new Random();
-			
-			if (rnd.Next() % 2 == 0)
+			for (int i = 0; i < numberOfFlips; i++)
+				{
+				if (rnd.Next() % 2 == 0)
 				{
 					Console.WriteLine("heads");
 				}
-			else
+				else
 				{
 					Console.WriteLine("tails");
 				}
-			
+			}
 
 		}
 	}
