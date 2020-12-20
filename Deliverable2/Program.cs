@@ -12,7 +12,7 @@ namespace Deliverable2
 			Console.Write("heads or tails? ");
 			string headsOrTailsGuess = Console.ReadLine();
 
-			Console.Write("Pick a number of coin flips");
+			Console.Write("Pick a number of coin flips ");
 			int numberOfFlips = int.Parse(Console.ReadLine());
 
 			//Random flip generator
