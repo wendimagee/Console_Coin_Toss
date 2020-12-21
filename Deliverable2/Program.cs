@@ -43,12 +43,11 @@ namespace Deliverable2
                 { correctCount = tailscount;
                 } 
             }
+            double percent = (double)correctCount/numberOfFlips;
+
             Console.Write("Your guess: " + headsOrTailsGuess);
             Console.Write(" Correct guesses: " + correctCount);
-
-            int percent = correctCount/numberOfFlips;
-           
-            Console.WriteLine(" Percentage correct: " + percent );
+            Console.WriteLine(" Percentage correct: " + percent*100 + "%" );
             
         }
                    
